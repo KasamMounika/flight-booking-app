@@ -1,0 +1,1008 @@
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/FlightBookingSystemApplication.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:25:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:25:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:26:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/controller/AddAirLineController.java:26:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/controller/AddAirLineController.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:28:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/controller/AddAirLineController.java:28:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/controller/AddAirLineController.java:28:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/controller/AddAirLineController.java:28:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/controller/AddAirLineController.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:37:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/AddAirLineController.java:37:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/AddAirLineController.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'status' could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'status' could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:56:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/AddAirLineController.java:56:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/AddAirLineController.java:62:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:62:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/AddAirLineController.java:63:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/AddAirLineController.java:66:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/flightapp/controller/AddAirLineController.java:66:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/flightapp/controller/AddAirLineController.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'airLineNo' could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'airLineNo' could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:78:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:78:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:84:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/controller/AddAirLineController.java:84:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/controller/AddAirLineController.java:95:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:95:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/AddAirLineController.java:96:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:96:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/AddAirLineController.java:96:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:96:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/AddAirLineController.java:96:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/AddAirLineController.java:96:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/TicketBookingController.java:27:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/controller/TicketBookingController.java:27:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/controller/TicketBookingController.java:27:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:27:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:27:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:27:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:29:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/controller/TicketBookingController.java:29:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/controller/TicketBookingController.java:29:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/controller/TicketBookingController.java:29:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ticketBookingService field if you want a default access modifier
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ticketBookingService field if you want a default access modifier
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	LongVariable:	LongVariable: Avoid excessively long variable names like ticketBookingService
+src/main/java/com/flightapp/controller/TicketBookingController.java:32:	LongVariable:	LongVariable: Avoid excessively long variable names like ticketBookingService
+src/main/java/com/flightapp/controller/TicketBookingController.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:34:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:34:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:36:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/TicketBookingController.java:36:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/TicketBookingController.java:41:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:41:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:47:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:47:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/controller/TicketBookingController.java:53:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:53:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/flightapp/controller/TicketBookingController.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/controller/TicketBookingController.java:54:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/controller/TicketBookingController.java:54:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.GeneratedValue'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.GeneratedValue'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:8:	UnusedImports:	UnusedImports: Unused import 'javax.persistence.GeneratedValue'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:8:	UnusedImports:	UnusedImports: Unused import 'javax.persistence.GeneratedValue'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.GenerationType'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.GenerationType'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:9:	UnusedImports:	UnusedImports: Unused import 'javax.persistence.GenerationType'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:9:	UnusedImports:	UnusedImports: Unused import 'javax.persistence.GenerationType'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	DataClass:	DataClass: The class 'AddAirLineEntity' is suspected to be a Data Class (WOC=5.263%, NOPA=0, NOAM=36, WMC=38)
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	DataClass:	DataClass: The class 'AddAirLineEntity' is suspected to be a Data Class (WOC=5.263%, NOPA=0, NOAM=36, WMC=38)
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	TooManyFields:	TooManyFields: Too many fields
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:20:	TooManyFields:	TooManyFields: Too many fields
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:24:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:24:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:24:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:24:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:27:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:27:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:27:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Name' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:27:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Name' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:30:	FieldNamingConventions:	FieldNamingConventions: The field name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:30:	FieldNamingConventions:	FieldNamingConventions: The field name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:30:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:30:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:33:	FieldNamingConventions:	FieldNamingConventions: The field name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:33:	FieldNamingConventions:	FieldNamingConventions: The field name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:33:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:33:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:36:	FieldNamingConventions:	FieldNamingConventions: The field name 'start_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:36:	FieldNamingConventions:	FieldNamingConventions: The field name 'start_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:36:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:36:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:39:	FieldNamingConventions:	FieldNamingConventions: The field name 'start_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:39:	FieldNamingConventions:	FieldNamingConventions: The field name 'start_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:39:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:39:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:42:	FieldNamingConventions:	FieldNamingConventions: The field name 'end_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:42:	FieldNamingConventions:	FieldNamingConventions: The field name 'end_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:42:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:42:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:45:	FieldNamingConventions:	FieldNamingConventions: The field name 'end_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:45:	FieldNamingConventions:	FieldNamingConventions: The field name 'end_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:45:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:45:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:48:	FieldNamingConventions:	FieldNamingConventions: The field name 'scheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:48:	FieldNamingConventions:	FieldNamingConventions: The field name 'scheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:48:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'scheduled_Days' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:48:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'scheduled_Days' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:51:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:51:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:51:	FieldNamingConventions:	FieldNamingConventions: The field name 'instrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:51:	FieldNamingConventions:	FieldNamingConventions: The field name 'instrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:51:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'instrument_Used' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:51:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'instrument_Used' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	FieldNamingConventions:	FieldNamingConventions: The field name 'business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	FieldNamingConventions:	FieldNamingConventions: The field name 'business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	LongVariable:	LongVariable: Avoid excessively long variable names like business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	LongVariable:	LongVariable: Avoid excessively long variable names like business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:54:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	FieldNamingConventions:	FieldNamingConventions: The field name 'non_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	FieldNamingConventions:	FieldNamingConventions: The field name 'non_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	LongVariable:	LongVariable: Avoid excessively long variable names like non_business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	LongVariable:	LongVariable: Avoid excessively long variable names like non_business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'non_business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:57:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'non_business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:60:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:60:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:60:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:60:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:60:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_price' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:60:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_price' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:63:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:63:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:63:	FieldNamingConventions:	FieldNamingConventions: The field name 'total_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:63:	FieldNamingConventions:	FieldNamingConventions: The field name 'total_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:63:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'total_rows' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:63:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'total_rows' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	FieldNamingConventions:	FieldNamingConventions: The field name 'meal_Type' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	FieldNamingConventions:	FieldNamingConventions: The field name 'meal_Type' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'meal_Type' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:66:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'meal_Type' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:69:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:69:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:69:	FieldNamingConventions:	FieldNamingConventions: The field name 'contact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:69:	FieldNamingConventions:	FieldNamingConventions: The field name 'contact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:69:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:69:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:72:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:72:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:72:	FieldNamingConventions:	FieldNamingConventions: The field name 'contact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:72:	FieldNamingConventions:	FieldNamingConventions: The field name 'contact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:72:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_address' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:72:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_address' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	FieldNamingConventions:	FieldNamingConventions: The field name 'roundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	FieldNamingConventions:	FieldNamingConventions: The field name 'roundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	LongVariable:	LongVariable: Avoid excessively long variable names like roundTrip_provided
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	LongVariable:	LongVariable: Avoid excessively long variable names like roundTrip_provided
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'roundTrip_provided' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:75:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'roundTrip_provided' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:78:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:78:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:78:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:78:	FieldNamingConventions:	FieldNamingConventions: The field name 'airLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:78:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Status' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:78:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Status' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:80:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:80:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_Number' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_Number' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:84:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:88:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:88:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_Name' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_Name' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Name' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:92:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Name' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:96:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:96:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'from_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'from_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:100:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:104:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:104:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'to_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'to_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:108:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:112:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getStart_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:112:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getStart_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'start_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'start_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'start_Date' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'start_Date' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setStart_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setStart_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:116:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:120:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getStart_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:120:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getStart_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'start_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'start_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'start_Time' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'start_Time' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setStart_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setStart_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:124:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:128:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getEnd_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:128:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getEnd_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'end_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'end_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'end_Date' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'end_Date' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setEnd_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setEnd_Date' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:132:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Date' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:136:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getEnd_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:136:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getEnd_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'end_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'end_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'end_Time' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'end_Time' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setEnd_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setEnd_Time' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:140:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_Time' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:144:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getScheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:144:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getScheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'scheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'scheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scheduled_Days' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scheduled_Days' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setScheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setScheduled_Days' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'scheduled_Days' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:148:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'scheduled_Days' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:152:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getInstrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:152:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getInstrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'instrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'instrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'instrument_Used' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'instrument_Used' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setInstrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setInstrument_Used' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'instrument_Used' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:156:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'instrument_Used' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:160:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getBusiness_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:160:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getBusiness_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	LongVariable:	LongVariable: Avoid excessively long variable names like business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	LongVariable:	LongVariable: Avoid excessively long variable names like business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'business_Class_Seats' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'business_Class_Seats' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setBusiness_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setBusiness_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:164:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:168:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getNon_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:168:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getNon_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'non_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'non_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	LongVariable:	LongVariable: Avoid excessively long variable names like non_business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	LongVariable:	LongVariable: Avoid excessively long variable names like non_business_Class_Seats
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'non_business_Class_Seats' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'non_business_Class_Seats' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setNon_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setNon_business_Class_Seats' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'non_business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:172:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'non_business_Class_Seats' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:176:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:176:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_price' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_price' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_price' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_price' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:180:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_price' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:184:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getTotal_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:184:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getTotal_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'total_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'total_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'total_rows' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'total_rows' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setTotal_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setTotal_rows' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'total_rows' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:188:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'total_rows' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:192:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:192:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:196:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:196:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:196:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'meal' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:196:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'meal' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:200:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getContact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:200:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getContact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'contact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'contact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contact_number' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contact_number' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setContact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setContact_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:204:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_number' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:208:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getContact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:208:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getContact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'contact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'contact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contact_address' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contact_address' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setContact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setContact_address' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_address' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:212:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'contact_address' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:216:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getRoundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:216:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getRoundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'roundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'roundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	LongVariable:	LongVariable: Avoid excessively long variable names like roundTrip_provided
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	LongVariable:	LongVariable: Avoid excessively long variable names like roundTrip_provided
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roundTrip_provided' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roundTrip_provided' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setRoundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setRoundTrip_provided' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'roundTrip_provided' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:220:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'roundTrip_provided' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:224:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:224:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getAirLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'airLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_Status' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLine_Status' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setAirLine_Status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Status' is not final.
+src/main/java/com/flightapp/entity/AddAirLineEntity.java:228:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'airLine_Status' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:14:	DataClass:	DataClass: The class 'FlightBookingEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:14:	DataClass:	DataClass: The class 'FlightBookingEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:22:	FieldNamingConventions:	FieldNamingConventions: The field name 'flight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:22:	FieldNamingConventions:	FieldNamingConventions: The field name 'flight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:22:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'flight_Number' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:22:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'flight_Number' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:26:	FieldNamingConventions:	FieldNamingConventions: The field name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:26:	FieldNamingConventions:	FieldNamingConventions: The field name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:26:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:26:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:28:	FieldNamingConventions:	FieldNamingConventions: The field name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:28:	FieldNamingConventions:	FieldNamingConventions: The field name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:28:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:28:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	FieldNamingConventions:	FieldNamingConventions: The field name 'no_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	FieldNamingConventions:	FieldNamingConventions: The field name 'no_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	LongVariable:	LongVariable: Avoid excessively long variable names like no_Of_Seats_To_Book
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	LongVariable:	LongVariable: Avoid excessively long variable names like no_Of_Seats_To_Book
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'no_Of_Seats_To_Book' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:34:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'no_Of_Seats_To_Book' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:46:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getFlight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:46:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getFlight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'flight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'flight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'flight_Number' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'flight_Number' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setFlight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setFlight_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'flight_Number' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:48:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'flight_Number' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:53:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:53:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:55:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:55:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'from_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'from_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'from_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setFrom_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:57:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:60:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:60:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'to_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'to_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'to_Place' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setTo_Place' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:62:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_Place' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailID' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailID' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:72:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getNo_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:72:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getNo_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'no_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'no_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	LongVariable:	LongVariable: Avoid excessively long variable names like no_Of_Seats_To_Book
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	LongVariable:	LongVariable: Avoid excessively long variable names like no_Of_Seats_To_Book
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'no_Of_Seats_To_Book' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'no_Of_Seats_To_Book' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setNo_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setNo_Of_Seats_To_Book' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'no_Of_Seats_To_Book' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:74:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'no_Of_Seats_To_Book' is not final.
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:83:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:83:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:87:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mealType' is not assigned and could be declared final
+src/main/java/com/flightapp/entity/FlightBookingEntity.java:87:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mealType' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	DataClass:	DataClass: The class 'AirLineDetails' is suspected to be a Data Class (WOC=2.564%, NOPA=0, NOAM=38, WMC=39)
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	DataClass:	DataClass: The class 'AirLineDetails' is suspected to be a Data Class (WOC=2.564%, NOPA=0, NOAM=38, WMC=39)
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	TooManyFields:	TooManyFields: Too many fields
+src/main/java/com/flightapp/model/AirLineDetails.java:7:	TooManyFields:	TooManyFields: Too many fields
+src/main/java/com/flightapp/model/AirLineDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:20:	LongVariable:	LongVariable: Avoid excessively long variable names like businessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:20:	LongVariable:	LongVariable: Avoid excessively long variable names like businessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:21:	LongVariable:	LongVariable: Avoid excessively long variable names like nonBusinessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:21:	LongVariable:	LongVariable: Avoid excessively long variable names like nonBusinessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineName' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineName' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fromPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fromPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'toPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'toPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'startDate' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'startDate' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'startTime' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'startTime' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:82:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'endDate' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:82:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'endDate' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'endTime' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'endTime' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:98:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scheduledDays' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:98:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scheduledDays' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:106:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'instrumentUsed' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:106:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'instrumentUsed' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:114:	LongVariable:	LongVariable: Avoid excessively long variable names like businessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:114:	LongVariable:	LongVariable: Avoid excessively long variable names like businessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:114:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'businessClassSeats' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:114:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'businessClassSeats' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:122:	LongVariable:	LongVariable: Avoid excessively long variable names like nonBusinessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:122:	LongVariable:	LongVariable: Avoid excessively long variable names like nonBusinessClassSeats
+src/main/java/com/flightapp/model/AirLineDetails.java:122:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nonBusinessClassSeats' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:122:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nonBusinessClassSeats' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:130:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLinePrice' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:130:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLinePrice' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:138:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'totalRows' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:138:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'totalRows' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:146:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mealType' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:146:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mealType' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:154:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contactNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:154:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contactNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:162:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contactAddress' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:162:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contactAddress' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:170:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roundTripProvided' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:170:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roundTripProvided' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:178:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineStatus' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:178:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineStatus' is not assigned and could be declared final
+src/main/java/com/flightapp/model/AirLineDetails.java:182:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/model/AirLineDetails.java:182:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:6:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/model/TicketBookingDetails.java:6:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/model/TicketBookingDetails.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:6:	DataClass:	DataClass: The class 'TicketBookingDetails' is suspected to be a Data Class (WOC=4.348%, NOPA=0, NOAM=22, WMC=23)
+src/main/java/com/flightapp/model/TicketBookingDetails.java:6:	DataClass:	DataClass: The class 'TicketBookingDetails' is suspected to be a Data Class (WOC=4.348%, NOPA=0, NOAM=22, WMC=23)
+src/main/java/com/flightapp/model/TicketBookingDetails.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'flightNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'flightNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fromPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fromPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'toPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'toPlace' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailID' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailID' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'noOfSeatsToBook' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'noOfSeatsToBook' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/model/TicketBookingDetails.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mealType' is not assigned and could be declared final
+src/main/java/com/flightapp/model/TicketBookingDetails.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mealType' is not assigned and could be declared final
+src/main/java/com/flightapp/model/UserLoginDetails.java:6:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/model/UserLoginDetails.java:6:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/model/UserLoginDetails.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:6:	DataClass:	DataClass: The class 'UserLoginDetails' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=6, WMC=7)
+src/main/java/com/flightapp/model/UserLoginDetails.java:6:	DataClass:	DataClass: The class 'UserLoginDetails' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=6, WMC=7)
+src/main/java/com/flightapp/model/UserLoginDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userID' is not assigned and could be declared final
+src/main/java/com/flightapp/model/UserLoginDetails.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userID' is not assigned and could be declared final
+src/main/java/com/flightapp/model/UserLoginDetails.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/flightapp/model/UserLoginDetails.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/flightapp/model/UserLoginDetails.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/flightapp/model/UserLoginDetails.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/flightapp/model/UserLoginDetails.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/model/UserLoginDetails.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/repository/AddAirLineRepository.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/repository/AddAirLineRepository.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/repository/AddAirLineRepository.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/repository/AddAirLineRepository.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/repository/AddAirLineRepository.java:21:	LongVariable:	LongVariable: Avoid excessively long variable names like getRoundTripProvided
+src/main/java/com/flightapp/repository/AddAirLineRepository.java:21:	LongVariable:	LongVariable: Avoid excessively long variable names like getRoundTripProvided
+src/main/java/com/flightapp/repository/FlightBookingCrudRepository.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/repository/FlightBookingCrudRepository.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/repository/FlightBookingRepository.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/repository/FlightBookingRepository.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/repository/FlightBookingRepository.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/repository/FlightBookingRepository.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/service/AddAirLineService.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/service/AddAirLineService.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:25:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/service/AddAirLineService.java:25:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/service/AddAirLineService.java:25:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/service/AddAirLineService.java:25:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/service/AddAirLineService.java:27:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/AddAirLineService.java:27:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/AddAirLineService.java:28:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/AddAirLineService.java:28:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/AddAirLineService.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the airLineRepository field if you want a default access modifier
+src/main/java/com/flightapp/service/AddAirLineService.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the airLineRepository field if you want a default access modifier
+src/main/java/com/flightapp/service/AddAirLineService.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:30:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/AddAirLineService.java:30:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/AddAirLineService.java:31:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/AddAirLineService.java:31:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/AddAirLineService.java:31:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the airLineEntity field if you want a default access modifier
+src/main/java/com/flightapp/service/AddAirLineService.java:31:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the airLineEntity field if you want a default access modifier
+src/main/java/com/flightapp/service/AddAirLineService.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:33:	CyclomaticComplexity:	CyclomaticComplexity: The method 'createAirLine(AirLineDetails)' has a cyclomatic complexity of 22.
+src/main/java/com/flightapp/service/AddAirLineService.java:33:	CyclomaticComplexity:	CyclomaticComplexity: The method 'createAirLine(AirLineDetails)' has a cyclomatic complexity of 22.
+src/main/java/com/flightapp/service/AddAirLineService.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:42:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:42:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:46:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:46:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'currentDate' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'currentDate' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:48:	SimpleDateFormatNeedsLocale:	SimpleDateFormatNeedsLocale: When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/flightapp/service/AddAirLineService.java:48:	SimpleDateFormatNeedsLocale:	SimpleDateFormatNeedsLocale: When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/flightapp/service/AddAirLineService.java:48:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:48:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cdate' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cdate' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:49:	SimpleDateFormatNeedsLocale:	SimpleDateFormatNeedsLocale: When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/flightapp/service/AddAirLineService.java:49:	SimpleDateFormatNeedsLocale:	SimpleDateFormatNeedsLocale: When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/flightapp/service/AddAirLineService.java:49:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:49:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/flightapp/service/AddAirLineService.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/flightapp/service/AddAirLineService.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/flightapp/service/AddAirLineService.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/flightapp/service/AddAirLineService.java:51:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:51:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:52:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/flightapp/service/AddAirLineService.java:52:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/flightapp/service/AddAirLineService.java:52:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:52:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:53:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:53:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:75:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Creating db query" appears 6 times in this file; the first occurrence is on line 75
+src/main/java/com/flightapp/service/AddAirLineService.java:75:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Creating db query" appears 6 times in this file; the first occurrence is on line 75
+src/main/java/com/flightapp/service/AddAirLineService.java:77:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/AddAirLineService.java:77:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/AddAirLineService.java:78:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/AddAirLineService.java:78:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/AddAirLineService.java:83:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:83:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:83:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:83:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'obj' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'obj' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:88:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/flightapp/service/AddAirLineService.java:88:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/flightapp/service/AddAirLineService.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:91:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:91:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:105:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/AddAirLineService.java:105:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/AddAirLineService.java:106:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/AddAirLineService.java:106:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/AddAirLineService.java:111:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:111:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:119:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:119:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:119:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:119:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'airLineNumber' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:119:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:119:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:130:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/AddAirLineService.java:130:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/AddAirLineService.java:131:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/AddAirLineService.java:131:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/AddAirLineService.java:136:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:136:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/AddAirLineService.java:136:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:136:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:139:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:139:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/com/flightapp/service/AddAirLineService.java:140:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:140:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/flightapp/service/AddAirLineService.java:142:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'obj' could be declared final
+src/main/java/com/flightapp/service/AddAirLineService.java:142:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'obj' could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/service/TicketBookingService.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/flightapp/service/TicketBookingService.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:21:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/service/TicketBookingService.java:21:	FieldNamingConventions:	FieldNamingConventions: The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/flightapp/service/TicketBookingService.java:21:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/service/TicketBookingService.java:21:	VariableNamingConventions:	VariableNamingConventions: Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the repo field if you want a default access modifier
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the repo field if you want a default access modifier
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/TicketBookingService.java:24:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/TicketBookingService.java:26:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the crudRepo field if you want a default access modifier
+src/main/java/com/flightapp/service/TicketBookingService.java:26:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the crudRepo field if you want a default access modifier
+src/main/java/com/flightapp/service/TicketBookingService.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:26:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/TicketBookingService.java:26:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the entity field if you want a default access modifier
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the entity field if you want a default access modifier
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/TicketBookingService.java:28:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/flightapp/service/TicketBookingService.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'requestModel' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:33:	EmptyStatementNotInLoop:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/main/java/com/flightapp/service/TicketBookingService.java:33:	EmptyStatementNotInLoop:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/main/java/com/flightapp/service/TicketBookingService.java:42:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/TicketBookingService.java:42:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/TicketBookingService.java:42:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Creating db query" appears 4 times in this file; the first occurrence is on line 42
+src/main/java/com/flightapp/service/TicketBookingService.java:42:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Creating db query" appears 4 times in this file; the first occurrence is on line 42
+src/main/java/com/flightapp/service/TicketBookingService.java:43:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/TicketBookingService.java:43:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/TicketBookingService.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:47:	LongVariable:	LongVariable: Avoid excessively long variable names like ticketBookingDetails
+src/main/java/com/flightapp/service/TicketBookingService.java:47:	LongVariable:	LongVariable: Avoid excessively long variable names like ticketBookingDetails
+src/main/java/com/flightapp/service/TicketBookingService.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:53:	LongVariable:	LongVariable: Avoid excessively long variable names like ticketHistoryDetails
+src/main/java/com/flightapp/service/TicketBookingService.java:53:	LongVariable:	LongVariable: Avoid excessively long variable names like ticketHistoryDetails
+src/main/java/com/flightapp/service/TicketBookingService.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/flightapp/service/TicketBookingService.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pnr' is not assigned and could be declared final
+src/main/java/com/flightapp/service/TicketBookingService.java:60:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/TicketBookingService.java:60:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/flightapp/service/TicketBookingService.java:61:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/flightapp/service/TicketBookingService.java:61:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/flightapp/FlightBookingSystemApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:10:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:10:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:10:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:10:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:12:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "true" appears 6 times in this file; the first occurrence is on line 12
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:12:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "true" appears 6 times in this file; the first occurrence is on line 12
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:12:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:12:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:16:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:16:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:18:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:18:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:22:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:22:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:22:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:22:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:24:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/AddAirLineControllerTest.java:24:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:12:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:12:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:12:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:12:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:14:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "true" appears 8 times in this file; the first occurrence is on line 14
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:14:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "true" appears 8 times in this file; the first occurrence is on line 14
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:14:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:14:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:18:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:18:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:18:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getTicketDetails' should not return void linguistically
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:18:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getTicketDetails' should not return void linguistically
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:20:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:20:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:24:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:24:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:24:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getTicketHistory' should not return void linguistically
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:24:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getTicketHistory' should not return void linguistically
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:26:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:26:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:30:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:30:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:30:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:30:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:32:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/TicketBookingControllerTest.java:32:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:8:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:8:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:11:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:11:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:11:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:11:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:13:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "true" appears 4 times in this file; the first occurrence is on line 13
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:13:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "true" appears 4 times in this file; the first occurrence is on line 13
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:13:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:13:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:17:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:17:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:19:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/controller/UserLoginControllerTest.java:19:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/flightapp/junit/service/AddAirLineServiceTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/service/AddAirLineServiceTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/service/AddAirLineServiceTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/service/AddAirLineServiceTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/service/AddAirLineServiceTest.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier
+src/test/java/com/flightapp/junit/service/AddAirLineServiceTest.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier
+src/test/java/com/flightapp/junit/service/TicketBookingServiceTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/service/TicketBookingServiceTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/service/TicketBookingServiceTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/service/TicketBookingServiceTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/service/TicketBookingServiceTest.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier
+src/test/java/com/flightapp/junit/service/TicketBookingServiceTest.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier
+src/test/java/com/flightapp/junit/service/UserLoginServiceTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/service/UserLoginServiceTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/flightapp/junit/service/UserLoginServiceTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/service/UserLoginServiceTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/flightapp/junit/service/UserLoginServiceTest.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier
+src/test/java/com/flightapp/junit/service/UserLoginServiceTest.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier

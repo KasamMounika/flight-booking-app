@@ -1,4 +1,4 @@
 FROM openjdk:latest
 EXPOSE 8080
-ADD target/flight-booking.jar api.jar
-ENTRYPOINT ["sh", "-c", "java -jar /api.jar"]
+ADD target/flight-booking-system.jar flight-booking-system.jar
+ENTRYPOINT ["sh", "-c", "java -jar /flight-booking-system.jar"]

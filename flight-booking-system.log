@@ -1,0 +1,1293 @@
+2021-12-29 10:17:14.710  INFO 7216 --- [restartedMain] c.f.FlightBookingSystemApplication       : Starting FlightBookingSystemApplication using Java 11.0.13 on DESKTOP-PLCALCU with PID 7216 (C:\Users\user\git\flight-booking-app\flight-booking-system\target\classes started by user in C:\Users\user\git\flight-booking-app\flight-booking-system)
+2021-12-29 10:17:14.803  INFO 7216 --- [restartedMain] c.f.FlightBookingSystemApplication       : No active profile set, falling back to default profiles: default
+2021-12-29 10:17:15.323  INFO 7216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 10:17:15.327  INFO 7216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 10:17:18.667  INFO 7216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-29 10:17:19.272  INFO 7216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 587 ms. Found 3 JPA repository interfaces.
+2021-12-29 10:17:19.968  INFO 7216 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=258cb4ad-3648-3916-97c0-ed231942613e
+2021-12-29 10:17:22.919  INFO 7216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-12-29 10:17:22.943  INFO 7216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 10:17:22.943  INFO 7216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 10:17:23.367  INFO 7216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 10:17:23.370  INFO 7216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8040 ms
+2021-12-29 10:17:23.942  INFO 7216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-29 10:17:24.057  INFO 7216 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-29 10:17:24.323  INFO 7216 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-29 10:17:24.534  INFO 7216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-29 10:17:27.002  INFO 7216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-29 10:17:27.030  INFO 7216 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-29 10:17:32.076  INFO 7216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-29 10:17:32.094  INFO 7216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 10:17:33.084  WARN 7216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-29 10:17:33.334  INFO 7216 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-29 10:17:33.341  INFO 7216 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 10:17:33.341  INFO 7216 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 10:17:33.545  WARN 7216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-29 10:17:35.129  INFO 7216 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 10:17:35.238  INFO 7216 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-12-29 10:17:36.467  INFO 7216 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 10:17:36.561  WARN 7216 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-29 10:17:36.598  INFO 7216 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-12-29 10:17:36.752  INFO 7216 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-12-29 10:17:36.761  INFO 7216 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:17:36.815  INFO 7216 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-12-29 10:17:36.820  INFO 7216 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 10:17:36.832  INFO 7216 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1640753256827 with initial instances count: 0
+2021-12-29 10:17:36.835  INFO 7216 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHT-BOOKING-SYSTEM with eureka with status UP
+2021-12-29 10:17:36.837  INFO 7216 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640753256837, current=UP, previous=STARTING]
+2021-12-29 10:17:36.843  INFO 7216 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 10:17:36.885  INFO 7216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-12-29 10:17:36.887  INFO 7216 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-12-29 10:17:37.390  INFO 7216 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 10:17:38.132  INFO 7216 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 10:17:38.134  INFO 7216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-12-29 10:17:38.199  INFO 7216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-12-29 10:17:38.280  INFO 7216 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-12-29 10:17:38.741  INFO 7216 --- [restartedMain] c.f.FlightBookingSystemApplication       : Started FlightBookingSystemApplication in 27.634 seconds (JVM running for 30.66)
+2021-12-29 10:17:38.748  INFO 7216 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 10:22:36.868  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:25:14.000  INFO 7216 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 10:25:14.000  INFO 7216 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-29 10:25:14.004  INFO 7216 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-12-29 10:25:14.063  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:25:14.063  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:25:14.064  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:25:14.064  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:25:15.209  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 10:25:15.210  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 10:25:15.210  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 10:25:15.210  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:25:15.692  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:25:16.838  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 10:25:20.503  INFO 7216 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:25:20.504  INFO 7216 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:25:20.505  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:25:20.505  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:25:21.884  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:27:36.880  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:32:36.892  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:35:30.411  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Inside createAirLine method
+2021-12-29 10:35:30.412  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside createAirLine service method
+2021-12-29 10:35:30.422  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:35:31.718  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Returning create new AirLine response
+2021-12-29 10:36:44.371  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Inside createAirLine method
+2021-12-29 10:36:44.372  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Inside createAirLine service method
+2021-12-29 10:36:44.372  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:36:45.571  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Returning create new AirLine response
+2021-12-29 10:36:50.539  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:36:50.540  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:36:50.540  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:36:50.540  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:36:51.942  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:37:12.744  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 10:37:12.745  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 10:37:12.746  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 10:37:12.747  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:37:14.342  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 10:37:19.200  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:37:19.201  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:37:19.202  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:37:19.202  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:37:20.585  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:37:25.078  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Inside updateFlightStatus method
+2021-12-29 10:37:25.079  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : 2
+2021-12-29 10:37:25.079  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside updateFlightStatus service method
+2021-12-29 10:37:25.079  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside searchFlight service method
+2021-12-29 10:37:25.080  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:37:26.478  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:37:26.479  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:37:27.280  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Returning updateFlightStatus response
+2021-12-29 10:37:28.024  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:37:28.024  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:37:28.025  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:37:28.025  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:37:29.406  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:37:34.998  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 10:37:34.998  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 10:37:34.998  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 10:37:34.998  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:37:36.585  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 10:37:36.895  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:38:01.139  INFO 7216 --- [http-nio-8082-exec-8] c.f.c.DiscountHandlerController          : Inside addDiscountDetails method
+2021-12-29 10:38:01.140  INFO 7216 --- [http-nio-8082-exec-8] c.f.service.DiscountHandlerService       : Inside addDiscountDetails service method
+2021-12-29 10:38:02.531  INFO 7216 --- [http-nio-8082-exec-8] c.f.service.DiscountHandlerService       : Creating db query
+2021-12-29 10:38:03.532  INFO 7216 --- [http-nio-8082-exec-8] c.f.c.DiscountHandlerController          : Returning addDiscountDetails response
+2021-12-29 10:38:07.570  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 10:38:07.571  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 10:38:07.573  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 10:38:07.573  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:38:09.159  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 10:38:33.700  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 10:38:33.701  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 10:38:33.701  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 10:38:33.701  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:38:35.284  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 10:39:16.602  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:39:16.603  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:39:16.603  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:39:16.603  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:39:17.984  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:40:59.838  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:40:59.839  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:40:59.840  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:40:59.840  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:00.250  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:41:00.250  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:41:00.250  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:00.450  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:41:09.730  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:41:09.731  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:41:09.732  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:41:09.732  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:10.130  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:41:10.130  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:41:10.130  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:10.331  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:41:23.063  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:41:23.064  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:41:23.064  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:41:23.064  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:23.462  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:41:23.462  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:41:23.462  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:23.666  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:41:43.890  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:41:43.890  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:41:43.890  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:41:43.890  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:45.270  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:41:49.336  INFO 7216 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Inside updateFlightStatus method
+2021-12-29 10:41:49.337  INFO 7216 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : 2
+2021-12-29 10:41:49.337  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Inside updateFlightStatus service method
+2021-12-29 10:41:49.337  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Inside searchFlight service method
+2021-12-29 10:41:49.337  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:50.714  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:41:50.715  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:51.507  INFO 7216 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Returning updateFlightStatus response
+2021-12-29 10:41:52.089  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:41:52.090  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:41:52.090  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:41:52.090  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:41:53.469  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:42:36.901  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:44:05.344  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:44:05.345  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:44:05.345  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:44:05.345  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:44:06.725  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:44:15.023  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Inside updateFlightStatus method
+2021-12-29 10:44:15.024  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : 2
+2021-12-29 10:44:15.024  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Inside updateFlightStatus service method
+2021-12-29 10:44:15.024  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Inside searchFlight service method
+2021-12-29 10:44:15.024  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:44:16.400  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:44:16.401  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:44:17.190  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Returning updateFlightStatus response
+2021-12-29 10:44:43.042  INFO 7216 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:44:43.042  INFO 7216 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:44:43.043  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:44:43.043  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:44:44.419  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:47:14.234  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:47:14.237  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:47:14.237  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:47:14.237  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:47:15.611  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:47:17.637  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Inside updateFlightStatus method
+2021-12-29 10:47:17.637  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : 2
+2021-12-29 10:47:17.637  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Inside updateFlightStatus service method
+2021-12-29 10:47:17.637  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Inside searchFlight service method
+2021-12-29 10:47:17.637  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:47:19.014  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:47:19.015  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:47:19.803  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Returning updateFlightStatus response
+2021-12-29 10:47:20.349  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:47:20.350  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:47:20.350  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:47:20.350  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:47:21.725  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:47:36.907  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:47:48.226  INFO 7216 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:47:48.227  INFO 7216 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:47:48.228  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:47:48.228  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:47:49.603  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:48:36.086  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:48:36.087  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:48:36.087  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:48:36.088  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:48:37.462  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:48:41.175  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Inside updateFlightStatus method
+2021-12-29 10:48:41.176  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : 2
+2021-12-29 10:48:41.177  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside updateFlightStatus service method
+2021-12-29 10:48:41.177  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside searchFlight service method
+2021-12-29 10:48:41.177  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:48:42.550  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:48:42.551  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:48:43.338  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Returning updateFlightStatus response
+2021-12-29 10:48:43.587  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:48:43.589  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:48:43.590  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:48:43.590  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:48:44.770  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:52:36.914  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 10:54:07.237  INFO 7216 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:54:07.238  INFO 7216 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:54:07.239  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:54:07.239  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:08.610  INFO 7216 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:54:13.119  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Inside updateFlightStatus method
+2021-12-29 10:54:13.120  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : 2
+2021-12-29 10:54:13.120  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside updateFlightStatus service method
+2021-12-29 10:54:13.120  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside searchFlight service method
+2021-12-29 10:54:13.120  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:14.490  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:54:14.491  INFO 7216 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:15.285  INFO 7216 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Returning updateFlightStatus response
+2021-12-29 10:54:15.873  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:54:15.873  INFO 7216 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:54:15.873  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:54:15.874  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:17.247  INFO 7216 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:54:30.742  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:54:30.742  INFO 7216 --- [http-nio-8082-exec-6] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:54:30.743  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:54:30.743  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:31.138  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:54:31.139  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:54:31.139  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:31.338  INFO 7216 --- [http-nio-8082-exec-6] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:54:39.881  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:54:39.881  INFO 7216 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:54:39.881  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:54:39.882  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:40.276  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:54:40.276  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:54:40.276  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:40.474  INFO 7216 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:54:49.650  INFO 7216 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 10:54:49.651  INFO 7216 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 10:54:49.652  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 10:54:49.652  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:54:51.023  INFO 7216 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 10:55:06.612  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:55:06.612  INFO 7216 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:55:06.612  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:55:06.613  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:55:07.007  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:55:07.007  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:55:07.007  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:55:07.205  INFO 7216 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:55:55.586  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:55:55.587  INFO 7216 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:55:55.587  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:55:55.587  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:55:55.985  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:55:55.985  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:55:55.985  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:55:56.183  INFO 7216 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:56:06.503  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:56:06.503  INFO 7216 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:56:06.503  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:56:06.503  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:56:06.900  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:56:06.901  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:56:06.901  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:56:07.100  INFO 7216 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:56:22.550  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 10:56:22.551  INFO 7216 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 10:56:22.551  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:56:22.551  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:56:22.944  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:56:22.944  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 10:56:22.944  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 10:56:23.143  INFO 7216 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 10:57:36.923  INFO 7216 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:03:34.674  INFO 8100 --- [restartedMain] c.f.FlightBookingSystemApplication       : Starting FlightBookingSystemApplication using Java 11.0.13 on DESKTOP-PLCALCU with PID 8100 (C:\Users\user\git\flight-booking-app\flight-booking-system\target\classes started by user in C:\Users\user\git\flight-booking-app\flight-booking-system)
+2021-12-29 11:03:34.682  INFO 8100 --- [restartedMain] c.f.FlightBookingSystemApplication       : No active profile set, falling back to default profiles: default
+2021-12-29 11:03:34.821  INFO 8100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 11:03:34.822  INFO 8100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 11:03:36.784  INFO 8100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-29 11:03:37.180  INFO 8100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 379 ms. Found 3 JPA repository interfaces.
+2021-12-29 11:03:37.770  INFO 8100 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=258cb4ad-3648-3916-97c0-ed231942613e
+2021-12-29 11:03:39.341  INFO 8100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-12-29 11:03:39.366  INFO 8100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 11:03:39.367  INFO 8100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:03:39.851  INFO 8100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 11:03:39.852  INFO 8100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5029 ms
+2021-12-29 11:03:40.428  INFO 8100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-29 11:03:40.622  INFO 8100 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-29 11:03:40.920  INFO 8100 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-29 11:03:41.205  INFO 8100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-29 11:03:43.809  INFO 8100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-29 11:03:43.851  INFO 8100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-29 11:03:46.025  INFO 8100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-29 11:03:46.044  INFO 8100 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:03:47.366  WARN 8100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-29 11:03:47.751  INFO 8100 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-29 11:03:47.760  INFO 8100 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:03:47.761  INFO 8100 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:03:48.026  WARN 8100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-29 11:03:49.749  INFO 8100 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:03:49.830  INFO 8100 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-12-29 11:03:51.073  INFO 8100 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:03:51.207  WARN 8100 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-29 11:03:51.268  INFO 8100 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-12-29 11:03:51.456  INFO 8100 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-12-29 11:03:51.469  INFO 8100 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:03:51.520  INFO 8100 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-12-29 11:03:51.525  INFO 8100 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 11:03:51.538  INFO 8100 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1640756031535 with initial instances count: 0
+2021-12-29 11:03:51.542  INFO 8100 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHT-BOOKING-SYSTEM with eureka with status UP
+2021-12-29 11:03:51.545  INFO 8100 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640756031545, current=UP, previous=STARTING]
+2021-12-29 11:03:51.554  INFO 8100 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:03:51.606  INFO 8100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-12-29 11:03:51.609  INFO 8100 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-12-29 11:03:52.104  INFO 8100 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:03:52.848  INFO 8100 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:03:52.851  INFO 8100 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-12-29 11:03:52.885  INFO 8100 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-12-29 11:03:52.966  INFO 8100 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-12-29 11:03:53.344  INFO 8100 --- [restartedMain] c.f.FlightBookingSystemApplication       : Started FlightBookingSystemApplication in 21.077 seconds (JVM running for 22.74)
+2021-12-29 11:03:53.351  INFO 8100 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:04:45.047  INFO 8100 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 11:04:45.049  INFO 8100 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-29 11:04:45.054  INFO 8100 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-12-29 11:04:45.126  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 11:04:45.126  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 11:04:45.128  INFO 8100 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 11:04:45.128  INFO 8100 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:04:46.835  INFO 8100 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 11:04:48.218  INFO 8100 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 11:04:48.219  INFO 8100 --- [http-nio-8082-exec-2] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 11:04:48.219  INFO 8100 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 11:04:48.219  INFO 8100 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:04:49.858  INFO 8100 --- [http-nio-8082-exec-2] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 11:04:50.908  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 11:04:50.909  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 11:04:50.910  INFO 8100 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 11:04:50.911  INFO 8100 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:04:52.286  INFO 8100 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 11:04:57.984  INFO 8100 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 11:04:57.985  INFO 8100 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 11:04:57.986  INFO 8100 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 11:04:57.987  INFO 8100 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:04:59.567  INFO 8100 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 11:05:12.159  INFO 8100 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:05:12.160  INFO 8100 --- [http-nio-8082-exec-5] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:05:12.160  INFO 8100 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:05:12.160  INFO 8100 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:05:12.589  INFO 8100 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:05:12.589  INFO 8100 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:05:12.589  INFO 8100 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:05:12.791  INFO 8100 --- [http-nio-8082-exec-5] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:05:22.121  INFO 8100 --- [http-nio-8082-exec-7] c.f.c.DiscountHandlerController          : Inside getDiscount method
+2021-12-29 11:05:22.123  INFO 8100 --- [http-nio-8082-exec-7] c.f.c.DiscountHandlerController          : Returning getDiscount response
+2021-12-29 11:05:22.123  INFO 8100 --- [http-nio-8082-exec-7] c.f.service.DiscountHandlerService       : Inside getAllAirLines service method
+2021-12-29 11:05:22.123  INFO 8100 --- [http-nio-8082-exec-7] c.f.service.DiscountHandlerService       : Creating db query
+2021-12-29 11:05:22.542  INFO 8100 --- [http-nio-8082-exec-7] c.f.service.DiscountHandlerService       : Returning flight details list
+2021-12-29 11:06:07.315  INFO 8100 --- [http-nio-8082-exec-9] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:06:07.315  INFO 8100 --- [http-nio-8082-exec-9] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:06:08.710  INFO 8100 --- [http-nio-8082-exec-9] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:06:11.553  INFO 8100 --- [http-nio-8082-exec-9] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:06:22.729  INFO 8100 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:06:22.730  INFO 8100 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:06:22.730  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:06:22.731  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:06:23.125  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:06:23.126  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:06:23.126  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:06:23.327  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:06:31.826  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 11:06:31.826  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 11:06:31.826  INFO 8100 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 11:06:31.826  INFO 8100 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:06:33.401  INFO 8100 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 11:06:43.545  INFO 8100 --- [http-nio-8082-exec-2] c.f.c.DiscountHandlerController          : Inside addDiscountDetails method
+2021-12-29 11:06:43.546  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.DiscountHandlerService       : Inside addDiscountDetails service method
+2021-12-29 11:06:44.934  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.DiscountHandlerService       : Creating db query
+2021-12-29 11:06:45.905  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 11:06:45.907  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 11:06:45.908  INFO 8100 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 11:06:45.908  INFO 8100 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:06:45.952  INFO 8100 --- [http-nio-8082-exec-2] c.f.c.DiscountHandlerController          : Returning addDiscountDetails response
+2021-12-29 11:06:47.491  INFO 8100 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 11:06:59.221  INFO 8100 --- [http-nio-8082-exec-4] c.f.controller.TicketBookingController   : Inside getTicketDetails method
+2021-12-29 11:06:59.221  INFO 8100 --- [http-nio-8082-exec-4] c.f.controller.TicketBookingController   : Returning ticket details response
+2021-12-29 11:06:59.222  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:06:59.222  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:07:00.594  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:07:00.595  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:07:00.595  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:07:01.574  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:07:05.875  INFO 8100 --- [http-nio-8082-exec-6] c.f.controller.TicketBookingController   : Inside cancelTicket method
+2021-12-29 11:07:05.875  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Inside cancelTicket service method
+2021-12-29 11:07:05.876  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:07:05.876  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:07:07.248  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:07:08.053  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:07:08.053  INFO 8100 --- [http-nio-8082-exec-6] c.f.controller.TicketBookingController   : Returning cancel ticket response
+2021-12-29 11:08:34.495  INFO 8100 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Inside getAllAirLinesForDiscount method
+2021-12-29 11:08:34.496  INFO 8100 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Returning getAllAirLinesForDiscount response
+2021-12-29 11:08:34.496  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Inside getAllAirLinesForDiscount service method
+2021-12-29 11:08:34.496  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:08:36.074  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Returning getAllAirLinesForDiscount list
+2021-12-29 11:08:44.160  INFO 8100 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Inside getAllAirLines method
+2021-12-29 11:08:44.161  INFO 8100 --- [http-nio-8082-exec-9] c.f.controller.AddAirLineController      : Returning getAllAirLines response
+2021-12-29 11:08:44.161  INFO 8100 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Inside getAllAirLines service method
+2021-12-29 11:08:44.161  INFO 8100 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:08:45.536  INFO 8100 --- [http-nio-8082-exec-9] com.flightapp.service.AddAirLineService  : Returning flight details list
+2021-12-29 11:08:51.572  INFO 8100 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:09:24.049  INFO 8100 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:09:24.050  INFO 8100 --- [http-nio-8082-exec-10] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:09:24.051  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:09:24.051  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:09:24.446  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:09:24.446  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:09:24.446  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:09:24.645  INFO 8100 --- [http-nio-8082-exec-10] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:09:54.981  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:09:54.982  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:09:56.357  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:09:59.315  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:10:16.458  INFO 8100 --- [http-nio-8082-exec-2] c.f.controller.TicketBookingController   : Inside getTicketDetails method
+2021-12-29 11:10:16.459  INFO 8100 --- [http-nio-8082-exec-2] c.f.controller.TicketBookingController   : Returning ticket details response
+2021-12-29 11:10:16.459  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:10:16.459  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:17.837  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:10:17.838  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:10:17.838  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:19.015  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:10:25.698  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.TicketBookingController   : Inside getTicketDetails method
+2021-12-29 11:10:25.699  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.TicketBookingController   : Returning ticket details response
+2021-12-29 11:10:25.700  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:10:25.700  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:27.081  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:10:27.083  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:10:27.083  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:28.264  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:10:48.345  INFO 8100 --- [http-nio-8082-exec-4] c.f.controller.TicketBookingController   : Inside getTicketDetails method
+2021-12-29 11:10:48.346  INFO 8100 --- [http-nio-8082-exec-4] c.f.controller.TicketBookingController   : Returning ticket details response
+2021-12-29 11:10:48.347  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:10:48.347  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:49.736  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:10:49.740  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:10:49.740  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:50.721  INFO 8100 --- [http-nio-8082-exec-4] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:10:53.066  INFO 8100 --- [http-nio-8082-exec-6] c.f.controller.TicketBookingController   : Inside cancelTicket method
+2021-12-29 11:10:53.067  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Inside cancelTicket service method
+2021-12-29 11:10:53.068  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:10:53.068  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:54.442  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:10:55.231  INFO 8100 --- [http-nio-8082-exec-6] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:10:55.233  INFO 8100 --- [http-nio-8082-exec-6] c.f.controller.TicketBookingController   : Returning cancel ticket response
+2021-12-29 11:11:20.195  INFO 8100 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:11:20.196  INFO 8100 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:11:20.196  INFO 8100 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:11:20.196  INFO 8100 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:11:20.591  INFO 8100 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:11:20.591  INFO 8100 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:11:20.592  INFO 8100 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:11:20.791  INFO 8100 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:12:19.425  INFO 8100 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:12:19.427  INFO 8100 --- [http-nio-8082-exec-8] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:12:19.428  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:12:19.428  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:12:19.827  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:12:19.827  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:12:19.827  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:12:20.029  INFO 8100 --- [http-nio-8082-exec-8] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:13:51.586  INFO 8100 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:16:36.077  INFO 8100 --- [http-nio-8082-exec-10] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:16:36.078  INFO 8100 --- [http-nio-8082-exec-10] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:16:37.452  INFO 8100 --- [http-nio-8082-exec-10] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:16:40.412  INFO 8100 --- [http-nio-8082-exec-10] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:17:02.298  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.TicketBookingController   : Inside getTicketDetails method
+2021-12-29 11:17:02.300  INFO 8100 --- [http-nio-8082-exec-1] c.f.controller.TicketBookingController   : Returning ticket details response
+2021-12-29 11:17:02.301  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:17:02.302  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:17:03.680  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:17:03.681  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:17:03.681  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:17:04.658  INFO 8100 --- [http-nio-8082-exec-1] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:17:30.975  INFO 8100 --- [http-nio-8082-exec-2] c.f.controller.TicketBookingController   : Inside getTicketHistory method
+2021-12-29 11:17:30.976  INFO 8100 --- [http-nio-8082-exec-2] c.f.controller.TicketBookingController   : Returning ticket history response
+2021-12-29 11:17:30.977  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Inside getTicketHistory service method
+2021-12-29 11:17:30.977  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:17:31.376  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:17:31.377  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Inside getTicketHistory service method
+2021-12-29 11:17:31.377  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:17:31.575  INFO 8100 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:17:33.905  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.TicketBookingController   : Inside getTicketDetails method
+2021-12-29 11:17:33.906  INFO 8100 --- [http-nio-8082-exec-3] c.f.controller.TicketBookingController   : Returning ticket details response
+2021-12-29 11:17:33.906  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:17:33.906  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:17:35.278  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:17:35.279  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Inside getTicketDetails service method
+2021-12-29 11:17:35.279  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:17:36.259  INFO 8100 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Returning db object
+2021-12-29 11:18:51.596  INFO 8100 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:20:42.948  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Starting FlightBookingSystemApplication using Java 11.0.13 on DESKTOP-PLCALCU with PID 14392 (C:\Users\user\git\flight-booking-app\flight-booking-system\target\classes started by user in C:\Users\user\git\flight-booking-app\flight-booking-system)
+2021-12-29 11:20:42.951  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : No active profile set, falling back to default profiles: default
+2021-12-29 11:20:43.098  INFO 14392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 11:20:43.099  INFO 14392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 11:20:45.474  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-29 11:20:45.994  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 497 ms. Found 3 JPA repository interfaces.
+2021-12-29 11:20:46.735  INFO 14392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=258cb4ad-3648-3916-97c0-ed231942613e
+2021-12-29 11:20:48.237  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-12-29 11:20:48.261  INFO 14392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 11:20:48.262  INFO 14392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:20:48.620  INFO 14392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 11:20:48.621  INFO 14392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5520 ms
+2021-12-29 11:20:49.153  INFO 14392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-29 11:20:49.298  INFO 14392 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-29 11:20:49.632  INFO 14392 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-29 11:20:49.892  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-29 11:20:52.633  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-29 11:20:52.669  INFO 14392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-29 11:20:54.922  INFO 14392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-29 11:20:54.944  INFO 14392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:20:56.442  WARN 14392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-29 11:20:56.792  INFO 14392 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-29 11:20:56.800  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:20:56.801  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:20:57.032  WARN 14392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-29 11:20:58.655  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:20:58.716  INFO 14392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-12-29 11:20:59.923  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:21:00.093  WARN 14392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-29 11:21:00.154  INFO 14392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-12-29 11:21:00.334  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-12-29 11:21:00.344  INFO 14392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:21:00.394  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-12-29 11:21:00.401  INFO 14392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 11:21:00.415  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1640757060413 with initial instances count: 0
+2021-12-29 11:21:00.421  INFO 14392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHT-BOOKING-SYSTEM with eureka with status UP
+2021-12-29 11:21:00.423  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757060423, current=UP, previous=STARTING]
+2021-12-29 11:21:00.431  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:21:00.502  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-12-29 11:21:00.508  INFO 14392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-12-29 11:21:00.990  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:21:01.726  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:21:01.728  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-12-29 11:21:01.764  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-12-29 11:21:01.841  INFO 14392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-12-29 11:21:02.176  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Started FlightBookingSystemApplication in 21.974 seconds (JVM running for 24.141)
+2021-12-29 11:21:02.182  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:21:39.013  INFO 14392 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 11:21:39.014  INFO 14392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-29 11:21:39.016  INFO 14392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-29 11:21:53.505  INFO 14392 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:21:53.505  INFO 14392 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:21:53.507  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:21:53.507  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:21:54.051  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:21:54.051  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:21:54.052  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:21:54.252  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:22:38.282  INFO 14392 --- [http-nio-8082-exec-2] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:22:47.706  INFO 14392 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:23:02.126  INFO 14392 --- [http-nio-8082-exec-2] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:24:12.930  INFO 14392 --- [http-nio-8082-exec-2] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:25:09.014  INFO 14392 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:25:09.015  INFO 14392 --- [http-nio-8082-exec-3] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:25:09.015  INFO 14392 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:25:09.016  INFO 14392 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:25:09.413  INFO 14392 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:25:09.414  INFO 14392 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:25:09.414  INFO 14392 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:25:09.614  INFO 14392 --- [http-nio-8082-exec-3] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:25:15.541  INFO 14392 --- [http-nio-8082-exec-4] c.f.c.DiscountHandlerController          : Inside getDiscount method
+2021-12-29 11:25:15.542  INFO 14392 --- [http-nio-8082-exec-4] c.f.c.DiscountHandlerController          : Returning getDiscount response
+2021-12-29 11:25:15.542  INFO 14392 --- [http-nio-8082-exec-4] c.f.service.DiscountHandlerService       : Inside getAllAirLines service method
+2021-12-29 11:25:15.543  INFO 14392 --- [http-nio-8082-exec-4] c.f.service.DiscountHandlerService       : Creating db query
+2021-12-29 11:25:15.950  INFO 14392 --- [http-nio-8082-exec-4] c.f.service.DiscountHandlerService       : Returning flight details list
+2021-12-29 11:25:36.068  INFO 14392 --- [http-nio-8082-exec-5] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:25:36.070  INFO 14392 --- [http-nio-8082-exec-5] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:25:37.445  INFO 14392 --- [http-nio-8082-exec-5] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:25:39.235  INFO 14392 --- [http-nio-8082-exec-5] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:26:00.448  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:26:42.624  INFO 14392 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:26:42.625  INFO 14392 --- [http-nio-8082-exec-7] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:26:42.625  INFO 14392 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:26:42.625  INFO 14392 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:26:43.022  INFO 14392 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:26:43.022  INFO 14392 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:26:43.022  INFO 14392 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:26:43.222  INFO 14392 --- [http-nio-8082-exec-7] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:27:07.165  INFO 14392 --- [http-nio-8082-exec-8] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:27:07.166  INFO 14392 --- [http-nio-8082-exec-8] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:27:08.541  INFO 14392 --- [http-nio-8082-exec-8] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:27:10.322  INFO 14392 --- [http-nio-8082-exec-8] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:31:00.456  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:31:59.700  INFO 14392 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHT-BOOKING-SYSTEM with eureka with status DOWN
+2021-12-29 11:31:59.702  INFO 14392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757719702, current=DOWN, previous=UP]
+2021-12-29 11:31:59.705  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:31:59.722  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:31:59.930  INFO 14392 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:31:59.942  INFO 14392 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-29 11:32:01.974  INFO 14392 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-29 11:32:01.978  INFO 14392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-12-29 11:32:04.997  INFO 14392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-12-29 11:32:05.028  INFO 14392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - deregister  status: 200
+2021-12-29 11:32:05.041  INFO 14392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-12-29 11:32:05.296  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:32:06.944  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Starting FlightBookingSystemApplication using Java 11.0.13 on DESKTOP-PLCALCU with PID 14392 (C:\Users\user\git\flight-booking-app\flight-booking-system\target\classes started by user in C:\Users\user\git\flight-booking-app\flight-booking-system)
+2021-12-29 11:32:06.945  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : No active profile set, falling back to default profiles: default
+2021-12-29 11:32:08.011  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-29 11:32:08.071  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2021-12-29 11:32:08.313  INFO 14392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=258cb4ad-3648-3916-97c0-ed231942613e
+2021-12-29 11:32:08.553  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-12-29 11:32:08.555  INFO 14392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 11:32:08.555  INFO 14392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:32:08.629  INFO 14392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 11:32:08.629  INFO 14392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1673 ms
+2021-12-29 11:32:08.748  INFO 14392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-29 11:32:08.780  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-12-29 11:32:30.857 ERROR 14392 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.7.jar:2.5.7]
+	at com.flightapp.FlightBookingSystemApplication.main(FlightBookingSystemApplication.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	... 54 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	... 57 common frames omitted
+
+2021-12-29 11:32:30.883  WARN 14392 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.7.jar:2.5.7]
+	at com.flightapp.FlightBookingSystemApplication.main(FlightBookingSystemApplication.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	... 54 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	... 57 common frames omitted
+
+2021-12-29 11:32:30.886  INFO 14392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-29 11:32:31.073  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-12-29 11:32:34.189  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-12-29 11:32:35.012  WARN 14392 --- [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table air_line_booking (air_line_number bigint not null, air_line_name varchar(255), air_line_status varchar(255), air_line_price integer, business_class_seats integer, contact_address varchar(255), contact_number bigint, end_date date, end_time varchar(255), from_place varchar(255), instrument_used varchar(255), meal_type varchar(255), non_business_class_seats integer, round_trip_provided varchar(255), scheduled_days varchar(255), start_date date, start_time varchar(255), to_place varchar(255), total_rows integer, primary key (air_line_number)) engine=MyISAM" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table air_line_booking (air_line_number bigint not null, air_line_name varchar(255), air_line_status varchar(255), air_line_price integer, business_class_seats integer, contact_address varchar(255), contact_number bigint, end_date date, end_time varchar(255), from_place varchar(255), instrument_used varchar(255), meal_type varchar(255), non_business_class_seats integer, round_trip_provided varchar(255), scheduled_days varchar(255), start_date date, start_time varchar(255), to_place varchar(255), total_rows integer, primary key (air_line_number)) engine=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:562) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:507) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.7.jar:2.5.7]
+	at com.flightapp.FlightBookingSystemApplication.main(FlightBookingSystemApplication.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'air_line_booking' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	... 39 common frames omitted
+
+2021-12-29 11:32:35.422  WARN 14392 --- [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table disount_details (discount_code integer not null, discount_offered integer, flight_number bigint, primary key (discount_code)) engine=MyISAM" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table disount_details (discount_code integer not null, discount_offered integer, flight_number bigint, primary key (discount_code)) engine=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:562) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:507) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.7.jar:2.5.7]
+	at com.flightapp.FlightBookingSystemApplication.main(FlightBookingSystemApplication.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'disount_details' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	... 39 common frames omitted
+
+2021-12-29 11:32:35.828  WARN 14392 --- [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table flight_booking_details (pnr integer not null, age integer, date date, emailid varchar(255), flight_number bigint, from_place varchar(255), gender varchar(255), meal_type varchar(255), name varchar(255), no_of_seats_to_book integer, seat_type_selected varchar(255), to_place varchar(255), primary key (pnr)) engine=MyISAM" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table flight_booking_details (pnr integer not null, age integer, date date, emailid varchar(255), flight_number bigint, from_place varchar(255), gender varchar(255), meal_type varchar(255), name varchar(255), no_of_seats_to_book integer, seat_type_selected varchar(255), to_place varchar(255), primary key (pnr)) engine=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:562) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:507) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.7.jar:2.5.7]
+	at com.flightapp.FlightBookingSystemApplication.main(FlightBookingSystemApplication.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'flight_booking_details' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	... 39 common frames omitted
+
+2021-12-29 11:32:35.830  INFO 14392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-29 11:32:35.831  INFO 14392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:32:36.206  WARN 14392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-29 11:32:36.273  INFO 14392 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-29 11:32:36.304  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:32:36.304  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:32:36.377  WARN 14392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-29 11:32:37.779  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:32:37.813  INFO 14392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-12-29 11:32:39.051  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:32:39.086  WARN 14392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-29 11:32:39.105  INFO 14392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-12-29 11:32:39.113  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-12-29 11:32:39.113  INFO 14392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:32:39.116  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-12-29 11:32:39.118  INFO 14392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 11:32:39.128  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1640757759128 with initial instances count: 0
+2021-12-29 11:32:39.131  INFO 14392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHT-BOOKING-SYSTEM with eureka with status UP
+2021-12-29 11:32:39.132  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757759132, current=UP, previous=STARTING]
+2021-12-29 11:32:39.133  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:32:39.138  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-12-29 11:32:39.139  INFO 14392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-12-29 11:32:39.170  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:32:40.428  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:32:40.429  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-12-29 11:32:40.431  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-12-29 11:32:40.441  INFO 14392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-12-29 11:32:40.567  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Started FlightBookingSystemApplication in 35.198 seconds (JVM running for 722.533)
+2021-12-29 11:32:40.573  INFO 14392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-29 11:32:40.574  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:33:38.113  INFO 14392 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHT-BOOKING-SYSTEM with eureka with status DOWN
+2021-12-29 11:33:38.116  INFO 14392 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757818116, current=DOWN, previous=UP]
+2021-12-29 11:33:38.118  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:33:38.150  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:33:38.334  INFO 14392 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:33:38.338  INFO 14392 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-12-29 11:33:43.290  INFO 14392 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-12-29 11:33:43.291  INFO 14392 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-12-29 11:33:46.312  INFO 14392 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-12-29 11:33:46.336  INFO 14392 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - deregister  status: 200
+2021-12-29 11:33:46.342  INFO 14392 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-12-29 11:33:46.493  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:33:47.996  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Starting FlightBookingSystemApplication using Java 11.0.13 on DESKTOP-PLCALCU with PID 14392 (C:\Users\user\git\flight-booking-app\flight-booking-system\target\classes started by user in C:\Users\user\git\flight-booking-app\flight-booking-system)
+2021-12-29 11:33:47.997  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : No active profile set, falling back to default profiles: default
+2021-12-29 11:33:48.987  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-29 11:33:49.034  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2021-12-29 11:33:49.208  INFO 14392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=258cb4ad-3648-3916-97c0-ed231942613e
+2021-12-29 11:33:49.350  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-12-29 11:33:49.352  INFO 14392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 11:33:49.353  INFO 14392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:33:49.435  INFO 14392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 11:33:49.435  INFO 14392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1421 ms
+2021-12-29 11:33:49.507  INFO 14392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-29 11:33:49.531  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-12-29 11:33:52.539  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-12-29 11:33:52.541  INFO 14392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-29 11:33:53.088  INFO 14392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-29 11:33:53.088  INFO 14392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:33:53.584  WARN 14392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-29 11:33:53.634  INFO 14392 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-29 11:33:53.642  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:33:53.642  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:33:53.785  WARN 14392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-29 11:33:57.050  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:33:57.096  INFO 14392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-12-29 11:33:58.368  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:33:58.424  WARN 14392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-29 11:33:58.448  INFO 14392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-12-29 11:33:58.455  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-12-29 11:33:58.456  INFO 14392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:33:58.459  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-12-29 11:33:58.464  INFO 14392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 11:33:58.469  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1640757838469 with initial instances count: 0
+2021-12-29 11:33:58.472  INFO 14392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHT-BOOKING-SYSTEM with eureka with status UP
+2021-12-29 11:33:58.474  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757838474, current=UP, previous=STARTING]
+2021-12-29 11:33:58.481  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-12-29 11:33:58.482  INFO 14392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-12-29 11:33:58.485  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:33:58.572  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:33:59.762  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:33:59.767  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-12-29 11:33:59.768  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-12-29 11:33:59.784  INFO 14392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-12-29 11:33:59.904  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Started FlightBookingSystemApplication in 13.347 seconds (JVM running for 801.87)
+2021-12-29 11:33:59.912  INFO 14392 --- [Thread-13] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHT-BOOKING-SYSTEM with eureka with status DOWN
+2021-12-29 11:33:59.912  INFO 14392 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757839912, current=DOWN, previous=UP]
+2021-12-29 11:33:59.914  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:33:59.931  INFO 14392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-29 11:33:59.931  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:33:59.950  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:34:00.159  INFO 14392 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:34:00.161  INFO 14392 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-12-29 11:34:13.968  INFO 14392 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-12-29 11:34:13.970  INFO 14392 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-12-29 11:34:16.975  INFO 14392 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-12-29 11:34:16.996  INFO 14392 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - deregister  status: 200
+2021-12-29 11:34:17.003  INFO 14392 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-12-29 11:34:17.166  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:34:18.468  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Starting FlightBookingSystemApplication using Java 11.0.13 on DESKTOP-PLCALCU with PID 14392 (C:\Users\user\git\flight-booking-app\flight-booking-system\target\classes started by user in C:\Users\user\git\flight-booking-app\flight-booking-system)
+2021-12-29 11:34:18.468  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : No active profile set, falling back to default profiles: default
+2021-12-29 11:34:19.677  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-29 11:34:19.744  INFO 14392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2021-12-29 11:34:20.059  INFO 14392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=258cb4ad-3648-3916-97c0-ed231942613e
+2021-12-29 11:34:20.201  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-12-29 11:34:20.203  INFO 14392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 11:34:20.203  INFO 14392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:34:20.283  INFO 14392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 11:34:20.283  INFO 14392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2021-12-29 11:34:20.388  INFO 14392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-29 11:34:20.421  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-12-29 11:34:24.854  INFO 16136 --- [restartedMain] c.f.FlightBookingSystemApplication       : Starting FlightBookingSystemApplication using Java 11.0.13 on DESKTOP-PLCALCU with PID 16136 (C:\Users\user\git\flight-booking-app\flight-booking-system\target\classes started by user in C:\Users\user\git\flight-booking-app\flight-booking-system)
+2021-12-29 11:34:24.856  INFO 16136 --- [restartedMain] c.f.FlightBookingSystemApplication       : No active profile set, falling back to default profiles: default
+2021-12-29 11:34:25.009  INFO 16136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 11:34:25.010  INFO 16136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 11:34:27.425  INFO 16136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-29 11:34:27.857  INFO 16136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 415 ms. Found 3 JPA repository interfaces.
+2021-12-29 11:34:28.512  INFO 16136 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=258cb4ad-3648-3916-97c0-ed231942613e
+2021-12-29 11:34:29.971  INFO 16136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-12-29 11:34:29.996  INFO 16136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 11:34:29.997  INFO 16136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:34:30.486  INFO 16136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 11:34:30.488  INFO 16136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5476 ms
+2021-12-29 11:34:30.952  INFO 16136 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-29 11:34:31.083  INFO 16136 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-29 11:34:31.386  INFO 16136 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-29 11:34:31.605  INFO 16136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-29 11:34:34.096  INFO 16136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-29 11:34:34.129  INFO 16136 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-29 11:34:36.243  INFO 16136 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-29 11:34:36.268  INFO 16136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:34:37.447  INFO 14392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-12-29 11:34:37.449  INFO 14392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-29 11:34:37.938  WARN 16136 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-29 11:34:38.267  INFO 16136 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-29 11:34:38.277  INFO 16136 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:34:38.277  INFO 16136 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:34:38.426  INFO 14392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-29 11:34:38.427  INFO 14392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:34:38.750  WARN 16136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-29 11:34:39.292  WARN 14392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-29 11:34:39.419  INFO 14392 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-29 11:34:39.511  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:34:39.512  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of api method
+2021-12-29 11:34:39.591  WARN 14392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-29 11:34:41.181  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:34:41.196  INFO 16136 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:34:41.213  INFO 14392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-12-29 11:34:41.266  INFO 16136 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-12-29 11:34:42.571  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:34:42.601  INFO 16136 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:34:42.608  WARN 14392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-29 11:34:42.624  INFO 14392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-12-29 11:34:42.627  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-12-29 11:34:42.628  INFO 14392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:34:42.630  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-12-29 11:34:42.632  INFO 14392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 11:34:42.634  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1640757882634 with initial instances count: 0
+2021-12-29 11:34:42.636  INFO 14392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHT-BOOKING-SYSTEM with eureka with status UP
+2021-12-29 11:34:42.637  INFO 14392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757882637, current=UP, previous=STARTING]
+2021-12-29 11:34:42.647  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:34:42.700  INFO 14392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-12-29 11:34:42.702  INFO 14392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-12-29 11:34:42.703  INFO 14392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:34:42.961  WARN 16136 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-12-29 11:34:43.165  INFO 16136 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-12-29 11:34:43.443  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-12-29 11:34:43.457  INFO 16136 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:34:43.550  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-12-29 11:34:43.557  INFO 16136 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 11:34:43.582  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1640757883569 with initial instances count: 0
+2021-12-29 11:34:43.588  INFO 16136 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHT-BOOKING-SYSTEM with eureka with status UP
+2021-12-29 11:34:43.591  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1640757883591, current=UP, previous=STARTING]
+2021-12-29 11:34:43.597  INFO 16136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:34:43.615  WARN 16136 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2021-12-29 11:34:43.629  INFO 16136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-29 11:34:43.640  INFO 16136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-29 11:34:44.178  INFO 16136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:34:44.493  INFO 14392 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-12-29 11:34:44.494  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-12-29 11:34:44.495  INFO 14392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-12-29 11:34:44.505  INFO 14392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-12-29 11:34:44.667  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Started FlightBookingSystemApplication in 27.48 seconds (JVM running for 846.632)
+2021-12-29 11:34:44.671  INFO 14392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-29 11:34:44.672  INFO 14392 --- [restartedMain] c.f.FlightBookingSystemApplication       : Start of main method
+2021-12-29 11:34:59.672  INFO 16136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-29 11:34:59.674  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-12-29 11:35:02.695  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-12-29 11:35:02.717  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - deregister  status: 200
+2021-12-29 11:35:02.726  INFO 16136 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-12-29 11:35:02.732  INFO 16136 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-12-29 11:35:02.770  INFO 16136 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-29 11:35:02.824 ERROR 16136 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2021-12-29 11:35:12.669  INFO 14392 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - Re-registering apps/FLIGHT-BOOKING-SYSTEM
+2021-12-29 11:35:12.671  INFO 14392 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082: registering service...
+2021-12-29 11:35:12.679  INFO 14392 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHT-BOOKING-SYSTEM/localhost:flight-booking-system:8082 - registration status: 204
+2021-12-29 11:35:30.205  INFO 14392 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 11:35:30.205  INFO 14392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-29 11:35:30.208  INFO 14392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-12-29 11:35:30.214  INFO 14392 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:35:30.214  INFO 14392 --- [http-nio-8082-exec-1] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:35:30.215  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:35:30.215  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:35:30.613  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:35:30.614  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:35:30.614  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:35:30.814  INFO 14392 --- [http-nio-8082-exec-1] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:36:11.686  INFO 14392 --- [http-nio-8082-exec-3] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:36:11.687  INFO 14392 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:36:13.069  INFO 14392 --- [http-nio-8082-exec-3] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:36:14.861  INFO 14392 --- [http-nio-8082-exec-3] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:36:45.435  INFO 14392 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Inside searchFlightForUser method
+2021-12-29 11:36:45.436  INFO 14392 --- [http-nio-8082-exec-4] c.f.controller.AddAirLineController      : Returning searchFlightForUser response
+2021-12-29 11:36:45.436  INFO 14392 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:36:45.436  INFO 14392 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:36:45.832  INFO 14392 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:36:45.832  INFO 14392 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Inside searchFlightForUser service method
+2021-12-29 11:36:45.832  INFO 14392 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Creating db query
+2021-12-29 11:36:46.032  INFO 14392 --- [http-nio-8082-exec-4] com.flightapp.service.AddAirLineService  : Returning flight search list
+2021-12-29 11:37:08.510  INFO 14392 --- [http-nio-8082-exec-5] c.f.controller.TicketBookingController   : Inside bookFlightTicket method
+2021-12-29 11:37:08.511  INFO 14392 --- [http-nio-8082-exec-5] c.f.service.TicketBookingService         : Inside bookFlightTicket service method
+2021-12-29 11:37:09.891  INFO 14392 --- [http-nio-8082-exec-5] c.f.service.TicketBookingService         : Creating db query
+2021-12-29 11:37:11.684  INFO 14392 --- [http-nio-8082-exec-5] c.f.controller.TicketBookingController   : Returning flight booking response
+2021-12-29 11:39:42.653  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:44:42.655  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:49:42.676  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:54:42.677  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 11:59:42.684  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:04:42.694  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:09:42.703  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:14:42.711  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:19:42.721  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:24:42.731  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:29:42.744  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:34:42.761  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:39:42.763  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:44:42.776  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:49:42.783  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:54:42.789  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 12:59:42.805  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:04:42.809  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:09:42.814  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:14:42.821  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:19:42.824  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:24:42.828  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:29:42.844  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:34:42.857  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:39:42.858  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:44:42.873  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:49:42.879  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:54:42.884  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 13:59:42.894  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:04:42.910  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:09:42.925  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:14:42.941  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:19:42.944  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:24:42.958  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:29:42.959  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:34:42.967  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:39:42.980  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:44:42.987  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:49:42.994  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:54:43.001  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 14:59:43.015  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:04:43.030  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:09:43.035  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:14:43.052  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:19:43.053  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:24:43.065  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:29:43.075  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:34:43.090  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:39:43.105  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:44:43.116  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:49:43.129  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:54:43.132  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 15:59:43.138  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:04:43.146  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:09:43.152  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:14:43.163  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:19:43.179  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:24:43.186  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:29:43.198  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:34:43.209  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:39:43.219  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:44:43.221  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:49:43.227  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:54:43.242  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 16:59:43.249  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 17:04:43.263  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 17:09:43.277  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-12-29 17:14:43.283  INFO 14392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

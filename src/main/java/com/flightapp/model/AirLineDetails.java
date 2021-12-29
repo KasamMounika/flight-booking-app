@@ -4,183 +4,96 @@ package com.flightapp.model;
 import java.io.Serializable;
 import java.sql.Date;
 
+import lombok.Data;
+
+/**
+ * AirLineDetails
+ * 
+ * @author Mounika
+ *
+ */
+@Data
 public class AirLineDetails implements Serializable {
 
+	/**
+	 * serialVersionUID
+	 */
 	private static final long serialVersionUID = 1L;
+	/**
+	 * airLineNumber
+	 */
 	private long airLineNumber;
+	/**
+	 * airLineName
+	 */
 	private String airLineName;
+	/**
+	 * fromPlace
+	 */
 	private String fromPlace;
+	/**
+	 * toPlace
+	 */
 	private String toPlace;
+	/**
+	 * startDate
+	 */
 	private Date startDate;
+	/**
+	 * startTime
+	 */
 	private String startTime;
+	/**
+	 * endDate
+	 */
 	private Date endDate;
+	/**
+	 * endTime
+	 */
 	private String endTime;
+	/**
+	 * scheduledDays
+	 */
 	private String scheduledDays;
+	/**
+	 * instrumentUsed
+	 */
 	private String instrumentUsed;
+	/**
+	 * businessClassSeats
+	 */
 	private int businessClassSeats;
+	/**
+	 * nonBusinessClassSeats
+	 */
 	private int nonBusinessClassSeats;
-	private String airLinePrice;
+	/**
+	 * airLinePrice
+	 */
+	private int airLinePrice;
+	/**
+	 * totalRows
+	 */
 	private int totalRows;
+	/**
+	 * mealType
+	 */
 	private String mealType;
+	/**
+	 * contactNumber
+	 */
 	private long contactNumber;
+	/**
+	 * contactAddress
+	 */
 	private String contactAddress;
+	/**
+	 * roundTripProvided
+	 */
 	private String roundTripProvided;
+	/**
+	 * airLineStatus
+	 */
 	private String airLineStatus;
-
-	public long getAirLineNumber() {
-		return airLineNumber;
-	}
-
-	public void setAirLineNumber(long airLineNumber) {
-		this.airLineNumber = airLineNumber;
-	}
-
-	public String getAirLineName() {
-		return airLineName;
-	}
-
-	public void setAirLineName(String airLineName) {
-		this.airLineName = airLineName;
-	}
-
-	public String getFromPlace() {
-		return fromPlace;
-	}
-
-	public void setFromPlace(String fromPlace) {
-		this.fromPlace = fromPlace;
-	}
-
-	public String getToPlace() {
-		return toPlace;
-	}
-
-	public void setToPlace(String toPlace) {
-		this.toPlace = toPlace;
-	}
-
-	public Date getStartDate() {
-		return startDate;
-	}
-
-	public void setStartDate(Date startDate) {
-		this.startDate = startDate;
-	}
-
-	public String getStartTime() {
-		return startTime;
-	}
-
-	public void setStartTime(String startTime) {
-		this.startTime = startTime;
-	}
-
-	public Date getEndDate() {
-		return endDate;
-	}
-
-	public void setEndDate(Date endDate) {
-		this.endDate = endDate;
-	}
-
-	public String getEndTime() {
-		return endTime;
-	}
-
-	public void setEndTime(String endTime) {
-		this.endTime = endTime;
-	}
-
-	public String getScheduledDays() {
-		return scheduledDays;
-	}
-
-	public void setScheduledDays(String scheduledDays) {
-		this.scheduledDays = scheduledDays;
-	}
-
-	public String getInstrumentUsed() {
-		return instrumentUsed;
-	}
-
-	public void setInstrumentUsed(String instrumentUsed) {
-		this.instrumentUsed = instrumentUsed;
-	}
-
-	public int getBusinessClassSeats() {
-		return businessClassSeats;
-	}
-
-	public void setBusinessClassSeats(int businessClassSeats) {
-		this.businessClassSeats = businessClassSeats;
-	}
-
-	public int getNonBusinessClassSeats() {
-		return nonBusinessClassSeats;
-	}
-
-	public void setNonBusinessClassSeats(int nonBusinessClassSeats) {
-		this.nonBusinessClassSeats = nonBusinessClassSeats;
-	}
-
-	public String getAirLinePrice() {
-		return airLinePrice;
-	}
-
-	public void setAirLinePrice(String airLinePrice) {
-		this.airLinePrice = airLinePrice;
-	}
-
-	public int getTotalRows() {
-		return totalRows;
-	}
-
-	public void setTotalRows(int totalRows) {
-		this.totalRows = totalRows;
-	}
-
-	public String getMealType() {
-		return mealType;
-	}
-
-	public void setMealType(String mealType) {
-		this.mealType = mealType;
-	}
-
-	public long getContactNumber() {
-		return contactNumber;
-	}
-
-	public void setContactNumber(long contactNumber) {
-		this.contactNumber = contactNumber;
-	}
-
-	public String getContactAddress() {
-		return contactAddress;
-	}
-
-	public void setContactAddress(String contactAddress) {
-		this.contactAddress = contactAddress;
-	}
-
-	public String getRoundTripProvided() {
-		return roundTripProvided;
-	}
-
-	public void setRoundTripProvided(String roundTripProvided) {
-		this.roundTripProvided = roundTripProvided;
-	}
-
-	public String getAirLineStatus() {
-		return airLineStatus;
-	}
-
-	public void setAirLineStatus(String airLineStatus) {
-		this.airLineStatus = airLineStatus;
-	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 
 }
