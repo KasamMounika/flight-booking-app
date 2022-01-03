@@ -94,7 +94,7 @@ public class TicketBookingService {
 			}
 			long airlineNo = ticketBookingDetails.getFlightNumber();
 			Optional<AddAirLineEntity> obj = airLinerepo.findById(airlineNo);
-			int pnr = (int)Math.floor(Math.random()*(1000-1+1)+1);
+			int pnr = (int)Math.floor(Math.random()*(9-1+1)+1);
 			entity.setPnr(pnr);
 			entity.setFlight_Number(ticketBookingDetails.getFlightNumber());
 			entity.setDate(obj.get().getStart_Date());

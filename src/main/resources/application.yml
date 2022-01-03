@@ -1,7 +1,7 @@
 spring:
    datasource:
       username: user1
-      url: jdbc:mysql://3.17.36.95:3306/hr
+      url: jdbc:mysql://3.137.206.55:3306/hr
       password: pass123
    jpa:
       properties:
